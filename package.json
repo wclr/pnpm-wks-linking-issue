@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "pnpm-wks-linking-issue",
+  "scripts": {
+    "clean-test": "pnpm clean && pnpm i && pnpm test",
+    "test": "node test",
+    "clean": "rm -rf node_modules && rm -rf pkg/node_modules && rm -rf xstream/node_modules && rm -f pnpm-lock.yaml"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@local/pkg",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cycle/react": "^2.9.0",
+    "xstream": "11.14.0"
+  }
+}
